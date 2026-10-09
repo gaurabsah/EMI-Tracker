@@ -1,0 +1,10 @@
+com/emitracker/purchase/PurchaseApiTest.class
+com/emitracker/TestApi$Tenant.class
+com/emitracker/security/RoutePingController.class
+com/emitracker/calc/CalculatorTest.class
+com/emitracker/TestApi.class
+com/emitracker/TestApi$Person.class
+com/emitracker/EndToEndTest.class
+com/emitracker/purchase/CustomerViewsApiTest.class
+com/emitracker/security/AuthSecurityTest.class
+com/emitracker/management/ManagementApiTest.class

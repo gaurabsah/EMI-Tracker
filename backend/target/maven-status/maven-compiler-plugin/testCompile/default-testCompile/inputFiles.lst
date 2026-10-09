@@ -1,0 +1,8 @@
+/workspaces/EMI-Tracker/backend/src/test/java/com/emitracker/EndToEndTest.java
+/workspaces/EMI-Tracker/backend/src/test/java/com/emitracker/TestApi.java
+/workspaces/EMI-Tracker/backend/src/test/java/com/emitracker/calc/CalculatorTest.java
+/workspaces/EMI-Tracker/backend/src/test/java/com/emitracker/management/ManagementApiTest.java
+/workspaces/EMI-Tracker/backend/src/test/java/com/emitracker/purchase/CustomerViewsApiTest.java
+/workspaces/EMI-Tracker/backend/src/test/java/com/emitracker/purchase/PurchaseApiTest.java
+/workspaces/EMI-Tracker/backend/src/test/java/com/emitracker/security/AuthSecurityTest.java
+/workspaces/EMI-Tracker/backend/src/test/java/com/emitracker/security/RoutePingController.java

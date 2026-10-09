@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:emitracker;DB_CLOSE_DELAY=-1
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    open-in-view: false
+  h2:
+    console:
+      enabled: false
+
+app:
+  admin:
+    email: admin@emitracker.local
+    password: admin123
+  jwt:
+    secret: dev-only-secret-change-me-dev-only-secret-change-me
+    expiry-minutes: 480
+  demo-data: false
