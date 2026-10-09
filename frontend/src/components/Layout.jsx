@@ -1,4 +1,4 @@
-import { NavLink, Outlet } from 'react-router-dom'
+import { Navigate, NavLink, Outlet } from 'react-router-dom'
 import { useAuth } from '../auth'
 
 const NAV = {
@@ -13,6 +13,7 @@ const NAV = {
 
 export default function Layout() {
   const { auth, logout } = useAuth()
+  if (!auth) return <Navigate to="/login" replace />
   return (
     <>
       <header className="topbar">
